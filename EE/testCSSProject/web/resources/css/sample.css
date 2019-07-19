@@ -1,0 +1,16 @@
+/*sample.css*/
+@charset "UTF-8";
+
+/* 여러 태그를 선택할 때 태그명,태그명,태그명... */
+body, h1, header, nav, section, footer{margin:20px;padding:0px;color:pink; }
+
+/* 태그 안에 사용된 태그를 선택하려명 태그명1 태그명2 공백으로 구분해서 표기함*/
+header nav ul{list-style:none;}
+
+hr{
+	box-shadow:1px 1px 2px black;
+}
+
+h2{
+	color:pink;
+}
